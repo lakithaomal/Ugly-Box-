@@ -1,0 +1,29 @@
+0. Resources:
+
+https://github.com/waggle-sensor/wagman/tree/master/v3/qa_testing/design_dev_tests/Wagman_Initialization
+https://github.com/waggle-sensor/wagman/tree/master/v3/bootloader
+
+1. Flash Bootloader:
+Please connect the AVRISP programmer to wagman using the following procedure - 
+
+https://github.com/waggle-sensor/wagman/tree/master/v3/qa_testing/design_dev_tests/Wagman_Initialization
+Your bootloader flasher is in this folder - 
+
+/home/lakitha/waggle_node_repos/wagman/v3/bootloader/src/caterina
+https://github.com/waggle-sensor/wagman/tree/master/v3/bootloader
+
+Please diconnect the AVRISP mkII programmer from the Wagman and connect the 
+the Wagman to the laptop using a micro-USB cable. 
+
+
+2. Flash Current wagman Firmware - 
+
+Install the wagman firmware by navigating to folder -
+
+
+/home/lakitha/waggle_node_repos/wagman/v3/Wagman
+
+and then run command - make program
+
+
+
